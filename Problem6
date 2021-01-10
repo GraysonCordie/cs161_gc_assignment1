@@ -1,0 +1,46 @@
+package edu.cgcc.cs161;
+
+//HEADER
+//Program Name: Calculator
+//Author: Grayson Cordie
+//Class: CS161 Winter 2020
+//Date: 01/10/2021
+//Description: Multiplies 20 by 1.5 using static variables and instance method.
+
+
+public class Calculator {
+	
+	/* PSUEDOCODE
+	 * Declare and initialize static floats a and b as 20 and 1.5
+	 * Begin
+	 * Instance calculate() method
+	 * Call on calculate() method
+	 * calculate() will declare and initialize new local float as the result of a*b
+	 * calculate() will print float c
+	 */
+	
+	
+	static float a = 20;
+	static float b = (float) 1.5;
+
+	public static void main(String[] args) {
+		
+		Calculator print = new Calculator();
+		
+		print.calculate();
+		
+		
+	}
+
+	public void calculate() {
+		
+		float c = a*b;
+		System.out.println(c);
+		
+	}
+	
+}
+
+/* FOOTER
+ * 30.0
+ */
