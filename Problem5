@@ -1,0 +1,44 @@
+package edu.cgcc.cs161;
+//HEADER
+//Program Name: Assignment One
+//Author: Grayson Cordie
+//Class: CS161 Winter 2020
+//Date: 01/10/2021
+//Description: Prints "Hello World!" to console.
+
+public class Assignment1 {
+	
+	/* PSUEDOCODE
+	 * Begin
+	 * Instance declaration of string variable helloWorld
+	 * +Instance initialization of helloWorld as string "Hello World!"
+	 * Call method print() to print variable helloWorld
+	 * End
+	 */
+
+	
+	String helloWorld; 
+	
+	Assignment1(){
+		helloWorld = "Hello World!";
+	}
+	
+	
+	public static void main(String[] args) {
+				
+		Assignment1 MyString = new Assignment1();
+		MyString.print();
+		
+	}
+	
+	public void print() {
+		
+		System.out.println(helloWorld);
+	}
+	
+
+}
+
+/* FOOTER
+ * Hello World!
+ */
